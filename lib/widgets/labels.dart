@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 class Labels extends StatelessWidget {
   final String route;
   final String text;
-  final String link_text;
+  final String linkText;
   const Labels(
       {Key? key,
       required this.route,
       required this.text,
-      required this.link_text})
+      required this.linkText})
       : super(key: key);
 
   @override
@@ -28,7 +28,7 @@ class Labels extends StatelessWidget {
           ),
           GestureDetector(
             child: Text(
-              this.link_text,
+              this.linkText,
               style: TextStyle(
                   color: Colors.blue[600],
                   fontSize: 18,

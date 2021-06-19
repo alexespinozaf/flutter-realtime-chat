@@ -24,7 +24,7 @@ class LoginPage extends StatelessWidget {
                   _Form(),
                   Labels(
                     text: '¿No tienes cuenta?',
-                    link_text: 'Crea una ahora',
+                    linkText: 'Crea una ahora',
                     route: 'register',
                   ),
                   Text(
