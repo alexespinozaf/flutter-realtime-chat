@@ -24,7 +24,7 @@ class RegisterPage extends StatelessWidget {
                   _Form(),
                   Labels(
                     text: '¿Ya posees una cuenta?',
-                    link_text: 'Ingresar con tu cuenta ahora!!',
+                    linkText: 'Ingresar con tu cuenta ahora!!',
                     route: 'login',
                   ),
                   Text(
